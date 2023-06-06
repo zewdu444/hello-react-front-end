@@ -23,6 +23,11 @@
 
 <p> This repository is developed using React and is used to display random greeting messages by utilizing a Rails API.</p>
 
+### Backend Api repository
+
+- <a href="https://github.com/zewdu444/hello-rails-back-end">Rails Link</a>
+
+
 ## 🛠 Built With <a name="built-with"> </a>
 
 > HTML 5 , CSS3, javascript ES6, React , Redux and Rails API

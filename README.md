@@ -44,12 +44,10 @@ to run on your localhost clone the project to local folder
 
 ### Setup
 
+
 > - git clone https://github.com/zewdu444/hello-react-front-end.git
 > - cd hello-react-front-end
-> - npm i
-> - npm start
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+> - npm install
 
 ### Prerequisites
 
@@ -61,8 +59,23 @@ In order to run this project you only need:
 ### Usage
 
 To run the project, execute the following command:
+first run the rails API server by using the following command:
 
-> In visual studio code open terminal then write "npm start" after on your browser open "http://localhost:3000".
+```sh
+ git clone https://github.com/zewdu444/hello-rails-back-end.git
+ cd hello-react-back-end
+ bundle install
+ rails s
+ http://127.0.0.1:3000/api/v1/greetings
+```
+To run front-end use the following command:
+
+```sh
+ cd hello-react-front-end
+ npm start
+ http://localhost:3001/ #opened automatically
+```
+
 
 ## 👥 Authors <a name="authors"></a>
 
